@@ -1,0 +1,216 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="face-dataset\female\MDI4OTIuanBn.jpg" />
+    <None Remove="face-dataset\female\MjM1NjEuanBn.jpg" />
+    <None Remove="face-dataset\female\MTI5MjQuanBn.jpg" />
+    <None Remove="face-dataset\female\NjYyMDcuanBn.jpg" />
+    <None Remove="face-dataset\female\NTE5MjQuanBn.jpg" />
+    <None Remove="face-dataset\female\NTExNTguanBn.jpg" />
+    <None Remove="face-dataset\female\NzYyODcuanBn.jpg" />
+    <None Remove="face-dataset\female\ODMzOTkuanBn.jpg" />
+    <None Remove="face-dataset\female\OTAxMDMuanBn.jpg" />
+    <None Remove="face-dataset\female\OTQ2NjcuanBn.jpg" />
+    <None Remove="face-dataset\female\OTQ4NzUuanBn.jpg" />
+    <None Remove="face-dataset\female\OTQxMjkuanBn.jpg" />
+    <None Remove="face-dataset\female\REWzDSAyCh.jpg" />
+    <None Remove="face-dataset\male\Mjg5MzguanBn.jpg" />
+    <None Remove="face-dataset\male\Mzg3MjUuanBn.jpg" />
+    <None Remove="face-dataset\male\MzM4MDMuanBn.jpg" />
+    <None Remove="face-dataset\male\NTUzMzguanBn.jpg" />
+    <None Remove="face-dataset\male\NTYxNzguanBn.jpg" />
+    <None Remove="face-dataset\male\NzU5MDEuanBn.jpg" />
+    <None Remove="face-dataset\male\OTM3NTYuanBn.jpg" />
+    <None Remove="face-dataset\male\OTM4NzEuanBn.jpg" />
+    <None Remove="face-dataset\male\OTQ5NTkuanBn.jpg" />
+    <None Remove="face-dataset\male\OTUyNDYuanBn.jpg" />
+    <None Remove="face-dataset\male\OTY3MTkuamBn.jpg" />
+    <None Remove="face-dataset\male\OTY3MTkuanBf.jpg" />
+    <None Remove="face-dataset\male\OTY3MTkuanBn.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="face-dataset\female\MDI4OTIuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\female\MjM1NjEuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\female\MTI5MjQuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\female\NjYyMDcuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\female\NTE5MjQuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\female\NTExNTguanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\female\NzYyODcuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\female\ODMzOTkuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\female\OTAxMDMuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\female\OTQ2NjcuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\female\OTQ4NzUuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\female\OTQxMjkuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\female\REWzDSAyCh.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\male\Mjg5MzguanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\male\Mzg3MjUuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\male\MzM4MDMuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\male\NTUzMzguanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\male\NTYxNzguanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\male\NzU5MDEuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\male\OTM3NTYuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\male\OTM4NzEuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\male\OTQ5NTkuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\male\OTUyNDYuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\male\OTY3MTkuamBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\male\OTY3MTkuanBf.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="face-dataset\male\OTY3MTkuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="34.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.24">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="6.0.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.24">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+	  <PackageReference Include="Microsoft.Extensions.Localization" Version="6.0.24" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+    <Folder Include="wwwroot\images\upload\" />
+  </ItemGroup>
+
+    <ItemGroup>
+    <None Include="wwwroot\lib\cldr-data\README" />
+    <None Include="wwwroot\lib\cldrjs\cldr.js" />
+    <None Include="wwwroot\lib\cldrjs\cldr.min.js" />
+    <None Include="wwwroot\lib\cldrjs\cldr.min.js.map" />
+    <None Include="wwwroot\lib\cldrjs\cldr\event.js" />
+    <None Include="wwwroot\lib\cldrjs\cldr\event.min.js" />
+    <None Include="wwwroot\lib\cldrjs\cldr\event.min.js.map" />
+    <None Include="wwwroot\lib\cldrjs\cldr\supplemental.js" />
+    <None Include="wwwroot\lib\cldrjs\cldr\supplemental.min.js" />
+    <None Include="wwwroot\lib\cldrjs\cldr\supplemental.min.js.map" />
+    <None Include="wwwroot\lib\cldrjs\cldr\unresolved.js" />
+    <None Include="wwwroot\lib\cldrjs\cldr\unresolved.min.js" />
+    <None Include="wwwroot\lib\cldrjs\cldr\unresolved.min.js.map" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime.js" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime.min.js" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime.min.js.map" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\currency.js" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\currency.min.js" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\currency.min.js.map" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\date.js" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\date.min.js" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\date.min.js.map" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\message.js" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\message.min.js" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\message.min.js.map" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\number.js" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\number.min.js" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\number.min.js.map" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\plural.js" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\plural.min.js" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\plural.min.js.map" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\relative-time.js" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\relative-time.min.js" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\relative-time.min.js.map" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\unit.js" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\unit.min.js" />
+    <None Include="wwwroot\lib\globalize\globalize-runtime\unit.min.js.map" />
+    <None Include="wwwroot\lib\globalize\globalize.js" />
+    <None Include="wwwroot\lib\globalize\globalize.min.js" />
+    <None Include="wwwroot\lib\globalize\globalize.min.js.map" />
+    <None Include="wwwroot\lib\globalize\globalize\currency.js" />
+    <None Include="wwwroot\lib\globalize\globalize\currency.min.js" />
+    <None Include="wwwroot\lib\globalize\globalize\currency.min.js.map" />
+    <None Include="wwwroot\lib\globalize\globalize\date.js" />
+    <None Include="wwwroot\lib\globalize\globalize\date.min.js" />
+    <None Include="wwwroot\lib\globalize\globalize\date.min.js.map" />
+    <None Include="wwwroot\lib\globalize\globalize\message.js" />
+    <None Include="wwwroot\lib\globalize\globalize\message.min.js" />
+    <None Include="wwwroot\lib\globalize\globalize\message.min.js.map" />
+    <None Include="wwwroot\lib\globalize\globalize\number.js" />
+    <None Include="wwwroot\lib\globalize\globalize\number.min.js" />
+    <None Include="wwwroot\lib\globalize\globalize\number.min.js.map" />
+    <None Include="wwwroot\lib\globalize\globalize\plural.js" />
+    <None Include="wwwroot\lib\globalize\globalize\plural.min.js" />
+    <None Include="wwwroot\lib\globalize\globalize\plural.min.js.map" />
+    <None Include="wwwroot\lib\globalize\globalize\relative-time.js" />
+    <None Include="wwwroot\lib\globalize\globalize\relative-time.min.js" />
+    <None Include="wwwroot\lib\globalize\globalize\relative-time.min.js.map" />
+    <None Include="wwwroot\lib\globalize\globalize\unit.js" />
+    <None Include="wwwroot\lib\globalize\globalize\unit.min.js" />
+    <None Include="wwwroot\lib\globalize\globalize\unit.min.js.map" />
+    <None Include="wwwroot\lib\jquery-validation-globalize\jquery.validate.globalize.js" />
+    <None Include="wwwroot\lib\jquery-validation-globalize\jquery.validate.globalize.min.js" />
+    <None Include="wwwroot\lib\jquery-validation-globalize\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-globalize\README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\images\MzM4MDMuanBn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

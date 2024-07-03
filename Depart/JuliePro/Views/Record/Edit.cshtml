@@ -1,0 +1,54 @@
+﻿@model RecordViewModel
+
+@{
+    ViewData["Title"] = @Locals["Edit"];
+}
+
+<h1>@Locals["Edit"]</h1>
+
+<h4>@Locals["Record"]</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SelectedDisciplineId" class="control-label"></label>
+                <select asp-for="SelectedDisciplineId" class="form-control" asp-items="Model.AvailableOptions.Disciplines"></select>
+                <span asp-validation-for="SelectedDisciplineId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Amount" class="control-label"></label>
+                <input asp-for="Amount" class="form-control" />
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Unit" class="control-label"></label>
+                <input asp-for="Unit" class="form-control" />
+                <span asp-validation-for="Unit" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SelectedTrainerId" class="control-label"></label>
+                <select asp-for="SelectedTrainerId" class="form-control" asp-items="Model.AvailableOptions.Trainers"></select>
+                <span asp-validation-for="SelectedTrainerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="@Locals["Save"]" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">@Locals["Back to List"]</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
